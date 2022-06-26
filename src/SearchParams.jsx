@@ -57,24 +57,6 @@ const SearchParams = () => {
 						<option value="Tucson, AZ">Tucson, AZ</option>
 						<option value="New Heaven, CT">New Heaven, CT</option>
 						<option value="Madison, WI">Madison, WI</option>
-						<option value="Los Angeles, CA">Los Angeles, CA</option>
-						<option value="Kansas City, MO">Kansas City, MO</option>
-						<option value="Harrisburg, PA">Harrisburg, PA</option>
-						<option value="Greenville, SC">Greenville, SC</option>
-						<option value="Cincinnati, OH">Cincinnati, OH</option>
-						<option value="Houston, TX">Houston, TX</option>
-						<option value="Riverside, CA">Riverside, CA</option>
-						<option value="Pensacola, FL">Pensacola, FL</option>
-						<option value="Beaufort, FC">Beaufort, FC</option>
-						<option value="Carol Strean, IL">Carol Strean, IL</option>
-						<option value="Portland, OR">Portland, OR</option>
-						<option value="Springfield, IL">Springfield, IL</option>
-						<option value="Lexington, KY">Lexington, KY</option>
-						<option value="Dallas, TX">Dallas, TX</option>
-						<option value="Bridgeport, CT">Bridgeport, CT</option>
-						<option value="Tampa, FL">Tampa, FL</option>
-						<option value="Huntington Beach, CA">Huntington Beach, CA</option>
-						<option value="Tuscaloosa, AL">Tuscaloosa, AL</option>
 					</select>
 				</label>
 				<label htmlFor="animal">

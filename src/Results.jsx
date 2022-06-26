@@ -3,6 +3,9 @@ import Pet from "./Pet";
 /* Here we have used simple destructuring as a result of which we can simply use "pets" instead of "props.pets" if used
    just (props) instead of ({pets}) */
 const Results = ({ pets }) => {
+	pets.map((pet) => {
+		console.log(pet);
+	});
 	return (
 		<div className="search">
 			{!pets.length ? (
