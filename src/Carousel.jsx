@@ -1,4 +1,5 @@
 import { Component } from "react";
+import mapObject from "./data/Utility";
 
 class Carousel extends Component {
 	constructor() {
@@ -29,7 +30,9 @@ class Carousel extends Component {
 
 	render() {
 		const { active } = this.state;
-		const { images } = this.props;
+		let { images } = this.props;
+
+		images = images.map((image) => mapObject[image]);
 
 		return (
 			<div className="carousel">
